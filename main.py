@@ -1,12 +1,12 @@
 #Imports
 import sys
-from PySide6.QtWidgets import QApplication, QWidget
+from PySide6.QtWidgets import QApplication
+from windows.loginWindow import LoginWindow
 
 # Create the application object
 app = QApplication(sys.argv)
 
-# Create a simple widget
-window = QWidget()
+window = LoginWindow()
+#Start the application
 window.show()
-
 app.exec()
