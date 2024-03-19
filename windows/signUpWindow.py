@@ -1,6 +1,5 @@
-from PySide6.QtWidgets import QMainWindow, QPushButton, QLineEdit
-
-class SignUpWindow(QMainWindow):
+from PySide6.QtWidgets import QMainWindow, QPushButton, QLineEdit, QWidget
+class SignUpWindow(QWidget):
     def signUp(self):
         print(self.username.text())
         print(self.password.text())
@@ -19,7 +18,7 @@ class SignUpWindow(QMainWindow):
         self.username = QLineEdit(self)
         self.username.move(150, 50)
         self.username.setPlaceholderText("Username")
-        
+
         self.password = QLineEdit(self)
         self.password.move(150, 100)
         self.password.setPlaceholderText("Password")
@@ -33,4 +32,3 @@ class SignUpWindow(QMainWindow):
         self.loginBtn = QPushButton("Login", self)
         self.loginBtn.move(150, 200)
         self.loginBtn.clicked.connect(self.showLogin)
-
