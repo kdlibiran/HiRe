@@ -1,4 +1,6 @@
 from PySide6.QtWidgets import QMainWindow, QPushButton, QLineEdit, QWidget
+from .loginWindow import LoginWindow
+
 class SignUpWindow(QWidget):
     def signUp(self):
         print(self.username.text())

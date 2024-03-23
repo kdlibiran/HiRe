@@ -35,7 +35,7 @@ class LoginWindow(QWidget):
         self.layout.addWidget(self.password)
         self.loginBtn = QPushButton("Login", self)
         self.loginBtn.clicked.connect(self.login)
-        
+
         # Add connection to sign up window
         self.signUpLabel1 = QLabel("Don't have an account?")
         self.signUpLabel = QLabelClick("Sign Up",self)
@@ -44,7 +44,7 @@ class LoginWindow(QWidget):
         #change arrow cursor to hand cursor
         self.signUpLabel.setCursor(PySide6.QtCore.Qt.PointingHandCursor)
         self.signUpLabel.clicked.connect(self.showSignUp)
-        
+
         self.layout.addWidget(self.loginBtn)
         self.layout.addWidget(self.signUpLabel1)
         self.layout.addWidget(self.signUpLabel)

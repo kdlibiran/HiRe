@@ -1,0 +1,9 @@
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/HiRe.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/install.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/HiRe_autogen_timestamp_deps.dir
+/Users/kyle/github/HiRe/build-HiRe-Qt_6_6_2_for_macOS-Debug/CMakeFiles/HiRe_autogen.dir
